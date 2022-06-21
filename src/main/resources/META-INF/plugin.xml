@@ -27,6 +27,10 @@
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-
+        <toolWindow id="Druid"
+                    anchor="right"
+                    canCloseContents="false"
+                    factoryClass="com.github.druiddesk.toolwindow.DruidDeskToolWindowFactory"
+                    icon="/icons/druid13.png"/>
     </extensions>
 </idea-plugin>
